@@ -3,4 +3,10 @@
     border-radius: 5px;
     display: inline-block;
     text-transform: uppercase;
+    cursor: pointer;
+    transition: all .5s;
+}
+.Button:hover {
+    opacity: .7;
+    background: var(--purple) !important;
 }

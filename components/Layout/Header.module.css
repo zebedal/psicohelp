@@ -6,7 +6,7 @@
     background: white;
 }
 .Header > div {
-    padding: 15px 0;
+    padding: 15px 10px;
 }
 
 .topContacts {
@@ -29,9 +29,12 @@
     vertical-align: middle;
 }
 .telefone > span {
-    font-size: calc(18px + (28 - 18) * (100vw - 400px) / (1680 - 450));
+    font-size: calc(12px + (28 - 12) * (100vw - 400px) / (1680 - 450));
     color: var(--blue);
 }
 .telefone > span:nth-child(1) {
     font-family: lato-light;
+}
+.telefone > span:nth-child(2) {
+    font-family: lato-bold;
 }

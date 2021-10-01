@@ -22,6 +22,7 @@
   --title-color:#42474c;
   --text-color: #5c656d;
   --purple: #5F529F;
+  --orange: #FFBD4A;
   --padding: 10px;
 }
 .wrapper {
@@ -32,6 +33,10 @@ body {
   font-family: lato-regular;
   font-size: 13px;
   color: var(--text-color);
+}
+p {
+  line-height: 1.5;
+  font-size: 16px;
 }
 h2 {
   line-height: 1.5;
@@ -44,6 +49,11 @@ h3 {
   color: var(--title-color);
   font-family: lato-bold;
   font-size: 28px;
+}
+strong {
+  color: #5c656d;
+  text-transform: uppercase;
+
 }
 .container {
   max-width: 1280px;

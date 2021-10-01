@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import { Fragment } from 'react'
-import styles from '../styles/Homepage.module.css'
-import Image from 'next/image'
 import Hero from '../components/homepage/Hero'
+import Services from '../components/homepage/Services'
+import QuemSomos from '../components/homepage/QuemSomos'
+import Oferta from '../components/homepage/Oferta'
+import Back from '../components/homepage/Back'
 
 export default function Home() {
   return (
@@ -14,8 +16,12 @@ export default function Home() {
       </Head>
 
       <Hero />
+      <Services />
+      <QuemSomos />
+      <Oferta />
+      <Back />
 
-      <div style={{height:'80vh'}}></div>
+      <div style={{ height: '80vh' }}></div>
 
     </Fragment>
   )

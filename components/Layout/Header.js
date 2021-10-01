@@ -32,6 +32,7 @@ const Header = props => (
             </div>
 
             <div className="divider"></div>
+            
         </header>
         
         <Navigation />

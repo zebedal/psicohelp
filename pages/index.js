@@ -5,6 +5,7 @@ import Services from '../components/homepage/Services'
 import QuemSomos from '../components/homepage/QuemSomos'
 import Oferta from '../components/homepage/Oferta'
 import Back from '../components/homepage/Back'
+import Artigos from '../components/homepage/Artigos'
 
 export default function Home() {
   return (
@@ -20,8 +21,8 @@ export default function Home() {
       <QuemSomos />
       <Oferta />
       <Back />
+      <Artigos />
 
-      <div style={{ height: '80vh' }}></div>
 
     </Fragment>
   )

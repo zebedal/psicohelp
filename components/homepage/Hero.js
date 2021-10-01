@@ -6,7 +6,7 @@ const Hero = props => (
         <img src="/assets/img/hero.jpg" layout="fill"  alt="clinica de psicologia"  />
         <div className={styles.content}>
             <p>Somos uma clínica privada de terapia</p>
-            <h2><span>A confiança</span> de fazer a diferença</h2>
+            <h2><span>A promover</span> a saúde mental</h2>
             <br/>
             <br />
             <div className={styles.flex}>

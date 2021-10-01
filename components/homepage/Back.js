@@ -3,6 +3,7 @@ import Image from 'next/image'
 import back from '../../public/assets/img/back.jpg'
 import Calendar from '../svg/Calendar'
 import Therapy from '../svg/Therapy'
+import Customer from '../svg/Customer'
 
 const Back = props => (
     <div className={styles.wrapper}>
@@ -19,6 +20,12 @@ const Back = props => (
                 <Therapy />
                 <div>10+</div>
                 <p>Várias especialidades</p>
+            </div>
+
+            <div className={styles.box}>
+                <Customer />
+                <div>500+</div>
+                <p>Clientes satisfeitos</p>
             </div>
 
 

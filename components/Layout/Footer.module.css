@@ -1,5 +1,48 @@
-.wrapper {
+
+.outerWrapper {
+    background: var(--grey);
+}
+.flex {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    padding: 120px 10px 50px 10px;
+    margin: -30px;
+    
+}
+.flex > * {
+    margin: 30px;
+}
+.flex a {
+    text-decoration: none;
+}
+.footerColumn {
+    align-self: stretch;
+}
+.footerColumn h5 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.footerColumn p {
+    font-size: 13px;
+    line-height: 20px;
+}
+.linksWrapper a {
+    display: block;
+    color: var(--blue);
+}
+.linksWrapper a:not(:nth-child(1)) {
+    margin-top: 10px;
+} 
+.articleDate {
+    font-size: 10px !important;
+    color: #a0a0a0;
+}
+.articleTitle {
+    color: var(--text-color) !important;
+}
+@media(max-width:750px) {
+    .flex {
+        flex-wrap: wrap;
+    }
 }

@@ -33,6 +33,7 @@ body {
   font-family: lato-regular;
   font-size: 13px;
   color: var(--text-color);
+  overflow-x: hidden;
 }
 p {
   line-height: 1.5;
@@ -73,3 +74,10 @@ strong {
   background: rgba(0,0,0,.1);
   padding: 0 !important;
 }
+.swiper-prev, .swiper-next {
+  cursor: pointer;
+  transition: opacity .4s;
+}
+.swiper-pagination-bullet-active {
+  background: var(--blue) !important;
+} 

@@ -9,4 +9,5 @@
 .Button:hover {
     opacity: .7;
     background: var(--purple) !important;
+    color: white !important;
 }

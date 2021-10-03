@@ -22,7 +22,7 @@ const CoachingServices = props => {
     useEffect(() => {
         const innerWidth = window.innerWidth < 550
         setIsMobile(innerWidth)
-    })
+    }, [])
 
     const handleIndexChange = ({realIndex}) => {
         setActiveCoach(realIndex + 1)

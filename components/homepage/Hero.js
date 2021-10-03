@@ -13,8 +13,8 @@ const Hero = props => (
                 <br />
                 <br />
                 <div className={styles.flex}>
-                    <Button text="Sobre nós" />
-                    <Button text="Marcar" background="var(--grey)" textColor="var(--text-color)" />
+                    <Button text="Sobre nós" route="/sobre"/>
+                    <Button text="Marcar" background="var(--grey)" textColor="var(--text-color)" route="/contactos"/>
                 </div>
             </div>
             

@@ -1,17 +1,17 @@
 
 .outerWrapper {
     background: var(--grey);
+    padding: 80px 0;
 }
-.flex {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 120px 10px 50px 10px;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
 }
-.flex > * {
+.grid > * {
     /* margin: 30px; */
 }
-.flex a {
+.grid a {
     text-decoration: none;
 }
 .footerColumn {
@@ -39,8 +39,26 @@
 .articleTitle {
     color: var(--text-color) !important;
 }
-@media(max-width:750px) {
-    .flex {
-        flex-wrap: wrap;
+@media(max-width:700px) {
+    .grid > .footerColumn:nth-child(1) {
+        grid-column: 1 / 4;
+    }
+    .grid > .footerColumn > *:not(:nth-child(1)) {
+        grid-column: 1 / 5;
+    }
+    .grid {
+        grid-template-columns: repeat(3,1fr);
+        gap: 40px;
+        place-items: center;
+    }
+}
+@media(max-width:450px) {
+    
+    .grid {
+        grid-template-columns: 1fr;
+        place-items: start !important;
+    }
+    .grid > div {
+        grid-column: span 1 !important;
     }
 }

@@ -22,7 +22,7 @@ const Sobre = props => (
                     <p>Docente Universitário em Universidades Públicas e Privadas, nas vertentes de Consultoria e Gestão de Recursos Humanos.</p>
                     <br />
                     <h3>Missão</h3>
-                    <br/>
+                    <br />
                     <p>A Psicohelp foi criada com a missão de colocar à disposição dos seus clientes, um leque de serviços diversificado nas áreas da Psicologia, Saúde e Recursos Humanos, contemplado vertentes como a Psicologia Clinica, a Psicoterapia, a Orientação Escolar/Vocacional e o Desenvolvimento Pessoal e Profissional.
                     </p>
                     <br />
@@ -38,13 +38,13 @@ const Sobre = props => (
                 <h2>Principais<span> vertentes</span></h2>
                 <Vertentes />
             </div>
-<br /><br /><br />
+            <br /><br /><br />
             <Link href="/contactos"><a><Button text="Contactar" background="var(--purple)" /></a></Link>
         </div>
 
-        <Oferta background="white"/>
+        <Oferta background="white" />
 
-        
+
     </Fragment>
 )
 

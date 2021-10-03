@@ -18,7 +18,7 @@ const Oferta = ({background='var(--grey)'}) => (
                     <p>Uma forma de tratamento na qual o casal interage com o terapeuta</p>
                     <br />
                     <div className={styles.linkFlex}>
-                        <Link href="">Saber mais</Link>&nbsp;&nbsp;
+                        <Link href="/avaliacao-psicologica">Saber mais</Link>&nbsp;&nbsp;
                         <svg width="8" height="10" viewBox="0 0 8 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M2.08957 0L0.910431 1.17918L4.73125 5L0.910431 8.82082L2.08957 10L7.08957 5L2.08957 0Z" fill="var(--blue)" />
                         </svg>
@@ -37,7 +37,7 @@ const Oferta = ({background='var(--grey)'}) => (
                     <p>Ansiedade por ser um problema sério com sequelas a longo prazo</p>
                     <br />
                     <div className={styles.linkFlex}>
-                        <Link href="">Saber mais</Link>&nbsp;&nbsp;
+                        <Link href="/avaliacao-psicologica">Saber mais</Link>&nbsp;&nbsp;
                         <svg width="8" height="10" viewBox="0 0 8 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M2.08957 0L0.910431 1.17918L4.73125 5L0.910431 8.82082L2.08957 10L7.08957 5L2.08957 0Z" fill="var(--blue)" />
                         </svg>
@@ -53,7 +53,7 @@ const Oferta = ({background='var(--grey)'}) => (
                     <p>Uma forma de tratamento na qual o casal interage com o terapeuta</p>
                     <br />
                     <div className={styles.linkFlex}>
-                        <Link href="">Saber mais</Link>&nbsp;&nbsp;
+                        <Link href="/avaliacao-psicologica">Saber mais</Link>&nbsp;&nbsp;
                         <svg width="8" height="10" viewBox="0 0 8 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M2.08957 0L0.910431 1.17918L4.73125 5L0.910431 8.82082L2.08957 10L7.08957 5L2.08957 0Z" fill="var(--blue)" />
                         </svg>

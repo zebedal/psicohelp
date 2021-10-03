@@ -27,7 +27,7 @@ const Header = props => (
                 <Logo />
                 <div >
                     <div className={styles.telefone}><span>Ligar:</span><span>&nbsp;932 736 037</span></div>
-                    <Button text="Marcar Consulta" />
+                    <Button text="Marcar Consulta" route="/contactos"/>
                 </div>
             </div>
 

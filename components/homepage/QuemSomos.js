@@ -18,7 +18,7 @@ const QuemSomos = props => (
             </p>
             <br/>
             <br/>
-            <Button text="Sobre nós" />
+            <Button text="Sobre nós" route="/sobre"/>
         </div>
     </div>
 )

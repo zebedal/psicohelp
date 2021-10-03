@@ -6,7 +6,7 @@ import styles from './Footer.module.css'
 const Footer = props => (
     <div className={styles.outerWrapper}>
         <div className={`container `}>
-            <div className={styles.flex}>
+            <div className={styles.grid}>
                 <div className={styles.footerColumn}>
                     <Logo />
                     <p>Aliqua sit velit labore laboris dolor aute et occaecat.</p>
@@ -33,9 +33,10 @@ const Footer = props => (
                     <h5>Links Rápidos</h5>
                     <Link href="/">Home</Link>
                     <Link href="/sobre">Sobre Nós</Link>
-                    <Link href="/">Avaliação Psicológica</Link>
+                    <Link href="/avaliacao-psicologica">Avaliação Psicológica</Link>
                     <Link href="/coaching">Coaching</Link>
-                    <Link href="/">Formação</Link>
+                    <Link href="/formacao">Formação</Link>
+                    <Link href="/contactos">Contactos</Link>
                 </div>
             </div>
         </div>

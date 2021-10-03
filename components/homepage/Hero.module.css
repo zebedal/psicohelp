@@ -27,12 +27,14 @@
     font-size:  calc(38px + (70 - 38) * (100vw - 400px) / (1680 - 450));
     color: white;
     font-family: lato-light;
+    font-weight: 100;
     line-height: 1.2;
 }
 .content > h2 > span {
     font-family: lato-regular;
     color: white;
     letter-spacing: 2px;
+    font-weight: 600;
 }
 .content p {
     text-transform: uppercase;

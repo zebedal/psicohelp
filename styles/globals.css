@@ -38,6 +38,7 @@ body {
 p {
   line-height: 1.5;
   font-size: calc(14px + (16 - 14) * (100vw - 400px) / (1680 - 450));
+  font-family: lato-light;
 }
 h2 {
   line-height: 1.5;
@@ -81,3 +82,6 @@ strong {
 .swiper-pagination-bullet-active {
   background: var(--blue) !important;
 } 
+::placeholder {
+  color:var(--text-color) !important;
+}

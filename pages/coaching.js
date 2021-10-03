@@ -1,6 +1,5 @@
 import styles from '../styles/Coaching.module.css'
 import Container from '../components/UI/Container'
-import Image from 'next/image'
 import { Fragment } from 'react'
 import CoachingServices from '../components/coaching/CoachingServices'
 import MarcarConsulta from '../components/MarcarConsulta'
@@ -17,9 +16,9 @@ const Coaching = props => (
       </Head>
 
         <div className={styles.wrapper}>
-            <Image src="/assets/img/coaching.jpg" priority={true} layout="fill" objectFit="cover" alt="coaching barreiro" />
+            <img src="/assets/img/coaching.jpg"  alt="coaching barreiro" style={{objectFit:'cover', width:'100%', height:'100%'}}/>
         </div>
-        <Container padding={50}>
+        <Container paddingTopBottom={50}>
             <h2 className={styles.subTitle}><span>O que é o</span> Coaching</h2>
             <br /><br />
             <p>Existe atualmente alguma tendência para encarar o Coaching como uma questão de “moda”, contudo a sua utilização remonta há algumas centenas de anos atrás, nomeadamente em países como o Japão e a China, entre outros. A busca do desenvolvimento pessoal e do autoconhecimento, criaram uma relação estreita entre o Mestre (Coach) e os seus pupilos (Coachees), com o objetivo de melhorar competências, como por exemplo a auto confiança, a capacidade de comunicação, o trabalho de equipa, entre outras.</p>
@@ -32,7 +31,7 @@ const Coaching = props => (
         </Container>
 
 
-        <Container padding={50}>
+        <Container paddingTopBottom={30}>
             <h2 className={styles.subTitle}><span>Serviços</span> de Coaching</h2>
             <CoachingServices />
         </Container>

@@ -3,7 +3,7 @@ import Container from '../UI/Container'
 import styles from './ExecutiveCoaching.module.css'
 
 const ExecutiveCoaching = props => (
-    <Container padding={50}>
+    <Container padding={50} paddingLeftRight={0}>
         <p>O Executive Coaching, é um processo que visa apoiar executivos a incrementar a sua performance no contexto organizacional, tendo por base o alcançar de objetivos organizacionais, mas também ao nível do alcançar de objetivos pessoais..</p>
         <br/>
         <p>O Executive Coaching é desenhado à medida das necessidades e objetivos do Coachee, mas pode intervir em aspetos como:</p>

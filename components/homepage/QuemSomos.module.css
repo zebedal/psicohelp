@@ -36,4 +36,7 @@
     .flex > div {
         flex-basis: 100%;
     }
+    .flex > div:nth-child(2) {
+        padding: 0 10px;
+    }
 }

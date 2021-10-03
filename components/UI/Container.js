@@ -1,6 +1,6 @@
 
 
-const Container = ({ children, padding=0 }) => {
+const Container = ({ children, paddingTopBottom=0, paddingLeftRight=10 }) => {
 
 
     const styles = {
@@ -8,7 +8,7 @@ const Container = ({ children, padding=0 }) => {
         margin: '0 auto',
         height: 'auto',
         position: 'relative',
-        padding: `${padding}px 10px`
+        padding: `${paddingTopBottom}px ${paddingLeftRight}px`
         
     }
 

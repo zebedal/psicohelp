@@ -3,7 +3,7 @@ import Container from '../UI/Container'
 import styles from './LifeCoaching.module.css'
 
 const LifeCoaching = props => (
-    <Container padding={50}>
+    <Container paddingTopBottom={50} paddingLeftRight={0}>
         <p>Ajuda a planear e definir metas pessoais reais e alcançáveis, ter mais objetividade e foco nas ações e alcançar o que é realmente mais importante para a vida do Coachee e para a sua realização pessoal</p>
         <br/>
         <p>O Coach tem como objetivo, ajudar os seus Coachees a alcançarem um equilíbrio entre as diversas vertentes da sua vida, de modo a que se sintam mais realizados.</p>

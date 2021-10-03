@@ -5,6 +5,7 @@
     text-transform: uppercase;
     cursor: pointer;
     transition: all .5s;
+    font-size: 12px;
 }
 .Button:hover {
     opacity: .7;

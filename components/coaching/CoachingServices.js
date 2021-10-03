@@ -39,7 +39,7 @@ const CoachingServices = props => {
                     el: '.swiper-pagination',
                     clickable: true
                 }}
-                style={{marginTop:'50px', overflow:'visible'}}
+                style={{marginTop:'50px', padding:'20px 0'}}
                 breakpoints={{
                     920: {
                         slidesPerView: 3
@@ -81,7 +81,7 @@ const CoachingServices = props => {
 
                 </div>
 
-                <div className="swiper-pagination" style={{width:'fit-content',margin:'0 auto',left:0, right:0,   top:'-10px'}}></div>
+                <div className="swiper-pagination" style={{width:'fit-content',margin:'0 auto',left:0, right:0,   top:'0px'}}></div>
             </Swiper>
            
             

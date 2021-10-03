@@ -16,7 +16,7 @@ const Avaliacao = props => (
         </Head>
 
         <div className={styles.wrapper}>
-            <Image src="/assets/img/avaliacao/avaliacao.jpg" priority={true}  loading="eager" layout="fill" objectFit="cover" alt="coaching barreiro" />
+            <Image src="/assets/img/avaliacao/avaliacao.jpg" layout="fill" objectFit="cover" alt="coaching barreiro" />
         </div>
 
 

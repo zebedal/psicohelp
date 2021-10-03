@@ -38,3 +38,11 @@
 .telefone > span:nth-child(2) {
     font-family: lato-bold;
 }
+@media(max-width:600px) {
+    .telefone{
+        display: none;
+    }
+    .topContacts {
+        display: none;
+    }
+}

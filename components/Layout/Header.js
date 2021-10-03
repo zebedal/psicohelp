@@ -4,11 +4,19 @@ import Email from '../svg/Email'
 import Logo from '../svg/Logo'
 import Button from '../UI/Button'
 import Navigation from './Navigation'
-import { Fragment } from 'react'
+import { Fragment, useEffect, useRef } from 'react'
 
 
-const Header = props => (
-    <Fragment>
+const Header = props => {
+
+    const isMobile = useRef()
+
+    useEffect(() => {
+        isMobile.current = window.innerWidth < 550
+    }, [])
+
+    return (
+        <Fragment>
         <header className={styles.Header}>
 
             <div className={styles.topContacts}>
@@ -27,7 +35,7 @@ const Header = props => (
                 <Logo />
                 <div >
                     <div className={styles.telefone}><span>Ligar:</span><span>&nbsp;932 736 037</span></div>
-                    <Button text="Marcar Consulta" route="/contactos"/>
+                    <Button text={isMobile ? "Marcar" : "Marcar Consulta"} route="/contactos" />
                 </div>
             </div>
 
@@ -38,6 +46,9 @@ const Header = props => (
         <Navigation />
         
     </Fragment>
-)
+    )
+
+}
+    
 
 export default Header

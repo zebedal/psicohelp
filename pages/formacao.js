@@ -13,11 +13,10 @@ const Formacao = props => (
         <title>Psicohelp | Psicologia. Saúde. Recursos Humanos</title>
         <meta name="description" content="Serviço de psicologia clínica, psicoterapia e coaching. Orientação Escolar e Vocacional" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
         <div className={styles.wrapper}>
-            <Image src="/assets/img/formacao/formacao.jpg" priority={true}  loading="eager" layout="fill" objectFit="cover" alt="formação barreiro" />
+            <Image src="/assets/img/formacao/formacao.jpg" priority={true}  layout="fill" objectFit="cover" alt="formação barreiro" />
         </div>
         <Container paddingTopBottom={50}>
             <h2 className={styles.subTitle}><span>Serviços de</span> Formação</h2>

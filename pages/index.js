@@ -14,7 +14,7 @@ export default function Home() {
         <title>Psicohelp | Psicologia. Saúde. Recursos Humanos</title>
         <meta name="description" content="Serviço de psicologia clínica, psicoterapia e coaching. Orientação Escolar e Vocacional" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.ico" />
       </Head>
 
       <Hero />

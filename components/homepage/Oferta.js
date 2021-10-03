@@ -2,8 +2,8 @@ import styles from './Oferta.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const Oferta = props => (
-    <div className={styles.wrapper}>
+const Oferta = ({background='var(--grey)'}) => (
+    <div className={styles.wrapper} style={{background: background }}>
         <div className="container">
             <strong>O que oferecemos</strong>
             <h2>Terapias <span>e Tratamentos</span></h2>

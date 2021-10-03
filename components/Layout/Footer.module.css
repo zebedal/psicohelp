@@ -7,11 +7,9 @@
     justify-content: flex-start;
     align-items: center;
     padding: 120px 10px 50px 10px;
-    margin: -30px;
-    
 }
 .flex > * {
-    margin: 30px;
+    /* margin: 30px; */
 }
 .flex a {
     text-decoration: none;

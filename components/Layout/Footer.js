@@ -32,9 +32,9 @@ const Footer = props => (
                 <div className={`${styles.footerColumn} ${styles.linksWrapper}`}>
                     <h5>Links Rápidos</h5>
                     <Link href="/">Home</Link>
-                    <Link href="/">Sobre Nós</Link>
+                    <Link href="/sobre">Sobre Nós</Link>
                     <Link href="/">Avaliação Psicológica</Link>
-                    <Link href="/">Coaching</Link>
+                    <Link href="/coaching">Coaching</Link>
                     <Link href="/">Formação</Link>
                 </div>
             </div>

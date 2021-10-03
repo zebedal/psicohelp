@@ -1,6 +1,6 @@
 .wrapper {
     padding: 80px 0;
-    background: var(--grey);
+    /* background: var(--grey); */
     text-align: center;
 }
 .wrapper h2 {

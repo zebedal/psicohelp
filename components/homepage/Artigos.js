@@ -1,13 +1,12 @@
 import styles from './Artigos.module.css'
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation, Pagination } from 'swiper';
+import SwiperCore, { Pagination } from 'swiper';
 import 'swiper/css';
-import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 
-SwiperCore.use([Navigation, Pagination]);
+SwiperCore.use([ Pagination]);
 
 
 const Artigos = props => {

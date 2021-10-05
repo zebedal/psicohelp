@@ -9,7 +9,7 @@ const Hero = props => (
         <div className={styles.innerContainer}>
 
             <div className={styles.content}>
-                <p>Somos uma clínica privada de terapia</p>
+                <p style={{color:'white'}}>Somos uma clínica privada de terapia</p>
                 <h2><span>A promover</span> a saúde mental</h2>
                 <br />
                 <br />

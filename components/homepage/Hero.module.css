@@ -56,6 +56,11 @@
 .flex > * {
     margin: 10px;
 }
+@media(max-width:920px) {
+    .wrapper {
+        height: 500px;
+    }
+}
 @media(max-width:750px) {
     .wrapper {
         height: 400px;
